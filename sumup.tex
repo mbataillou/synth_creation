@@ -2,6 +2,13 @@
 
 \usepackage{./custom}
 
+\newcommand{\question}[1]
+{
+\addtocounter{section}{1}
+\paragraph*{Question \thesection}
+\emph{\textcolor{red}{#1}}
+}
+
 \begin{document}
 % title (fold)
 \begin{center}
@@ -13,8 +20,18 @@
 }
 \end{center}
 % title (end)
+
+\question{Comment définir une entreprise solidaire et sociale?}
+Les entreprises solidaires et sociales partagent trois caractéristiques communes, à savoir
+\begin{enumerate}
+  \item un projet économiquement viable,
+  \item une finalité associative,
+  \item et une gouvernance participative (décisions prises collectivement, participation pas seulement en apport de capital).
+\end{enumerate}
+Dans ce type de projet, la finalité sociale dépasse la finalité économique.
+On notera qu'il est donc plus difficile de convaincre les investisseurs.
   
-\textbf{\emph{Quels sont les différents stades de financement d’une entreprise, du point de vue du capital risque ? Quels types de risques un investisseur peut il être prêt à prendre ou au contraire à rejeter ?}}
+\textbf{Quels sont les différents stades de financement d’une entreprise, du point de vue du capital risque ? Quels types de risques un investisseur peut il être prêt à prendre ou au contraire à rejeter ?}
 
 \vspace{1cm}
 \begin{tabular}{|c|c|c|} 
@@ -175,7 +192,7 @@ La prestation de l'investisseur est de gérer l'argent de ses clients, et de tro
 \textbf{\emph{Business model selon Alexander Osterwalder}}
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.5]{./img/im1}
+		\includegraphics[scale=0.5]{./img/im1.png}
 	\end{center}
 \end{figure}
 
